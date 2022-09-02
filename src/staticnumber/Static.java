@@ -10,10 +10,10 @@ public class Static {
 		int num4 = NUM + NUM2;
 		System.out.println("The new number is " + num4);
 		
-		final int NUM5 = 76;
-		int num6 = NUM3 + NUM5;			
-		System.out.println("The new number is " + num6);
-		
+			{final int NUM5 = 76;
+			int num6 = NUM3 + NUM5;			
+			System.out.println("The new number is " + num6);
+		}
 	}
 	}
 		
